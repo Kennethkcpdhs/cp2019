@@ -1,0 +1,8 @@
+def sum_digits():
+    number = (input("Enter a number: "))
+    sumnum = 0
+    for i in number.strip():
+        sumnum+=int(i)
+
+    print(sumnum)
+sum_digits()
