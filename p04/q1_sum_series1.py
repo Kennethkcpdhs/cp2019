@@ -1,7 +1,7 @@
 def sum_series1(i):
-    count = 1
-    m = (1/count)
-    while count<=i:
-        m+=(1/count)
-        count+=1
+    
+    m = 0
+    for j in range(1,i+1):
+        m+=(1/j)
+        
     return m
