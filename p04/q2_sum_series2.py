@@ -1,8 +1,7 @@
-def sum_series1(i):
-    count = 0
-    m = (count/((2*count)+1))
-    while count<=i:
-        m+=(count/((2*count)+1))
-        count+=1
+def sum_series2(i):
+    
+    m = 0
+    for j in range(1,i+1):
+        m+=(j/((2*j)+1))
         
     return m
